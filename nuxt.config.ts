@@ -7,6 +7,7 @@ export default defineNuxtConfig({
   ],
   devtools: { enabled: true },
   app: {
+    baseURL: '/Bakery/', // Имя вашего репозитория!
     head: {
       title: 'Булонька',
       titleTemplate: '%s | Булонька',
